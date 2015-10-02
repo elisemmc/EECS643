@@ -1,0 +1,2 @@
+all:
+	g++ CacheBench.cpp -o CacheBench -lrt -ffast-math -std=c++11 -O3 -march=native
